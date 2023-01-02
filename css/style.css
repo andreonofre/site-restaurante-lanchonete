@@ -50,8 +50,8 @@ nav .logo, ul, li, a:hover {
     color: #dedede;
 }
 
-header .hero{
-    background-image: url(../src/img/hero.jpg);
+header .hero {
+    background-image: url(../src/img/imagem.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,6 +61,7 @@ header .hero{
     justify-content: center;
 }
 
+  
 header .hero #formSearch {
     display: flex;
     align-items: center;
@@ -174,8 +175,52 @@ footer .container p {
     }
     main .container .pratos .prato{
         width: 300px;
-        
     }
+    .modal {
+        position: fixed;
+        width: 70%;
+        left: 15%;
+        top: 40%;
+        background: #fff;
+        padding: 40px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    .btn {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #000;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        opacity: 0.8;
+    }
+    
+    .btn-success {
+        background-color: #06c706;
+        transition: 0.3s ease;
+    }
+    
+    /* .btn-success:hover {
+        background-color: #189418;
+        color: #ffffff;
+    } */
+    
+    .btn-danger {
+        background-color: #ff0000ea;
+        transition: 0.3s ease;
+    }
+    
+    /* .btn-danger:hover {
+        background-color: #bb0707ea;
+        color: #ffffff;
+    
+    } */
+    
 }
 
 
@@ -183,11 +228,11 @@ footer .container p {
 
 .modal {
     position: fixed;
-    width: 70%;
-    left: 15%;
-    top: 30%;
+    width: 90%;
+    left: 5%;
+    top: 10%;
     background: #fff;
-    padding: 40px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
@@ -221,7 +266,7 @@ footer .container p {
     border-radius: 5px;
     font-weight: bold;
     color: #000;
-    font-size: 1rem;
+    font-size: 0.9rem;
     cursor: pointer;
 }
 
