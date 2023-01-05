@@ -104,8 +104,9 @@ const loadSearch = (form, productsDivId) => {
 
 loadProducts(produtos, "#product-div")
 
-checkout("5575998927538")
+// checkout("5575998927538")
 
+checkout("5573998414135")
 loadSearch(document.querySelector("#formSearch"), "#product-div");
 
 
