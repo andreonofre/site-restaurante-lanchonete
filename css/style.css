@@ -47,7 +47,7 @@ nav .menu, ul, li a {
 }
 
 
-#git {
+a #git {
     margin-left: 15px;
 }
 nav .logo, ul, li, a:hover {
